@@ -1,0 +1,152 @@
+page-pag3 {
+ion-header{
+		height: 75px;
+	}
+}
+
+.header {
+	width: 100%;
+}
+
+#logo {
+	width: 70px;
+	height: 70px;
+	margin-left: 2%;
+	float: left;
+}
+
+.nombre{
+	font-size: 1.8em;
+	float: left;
+	text-shadow: 2px 2px 3px #a1a18c;
+	margin-left: 25%;
+}
+
+.flecha{
+	width: 5%;
+	height: 5%; 
+	float: left;
+	margin-left: 2%;
+	margin-top: 11%;
+}
+
+.flecha:hover{
+    cursor: pointer;
+}
+
+.foto{
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin-left: 2%;
+	margin-top: 3%;
+}
+
+
+.asignatura{
+	width: 350px;
+	border-style: hidden hidden double hidden;
+	height: 13%;
+	border-width: 3px;
+	padding: 4%;
+	margin-left: -30px;
+	margin-top : -5%;
+	margin-bottom: 5%;
+	background-color: #ffe1a4;
+}
+
+
+.fondo {
+	background-color: #fffaf0;
+}
+
+.titulo {
+	color: #191970;
+	text-shadow: 2px 2px 3px #a1a18c;
+    font-family: arial;
+	font-weight: bold;
+	text-align: center;
+}
+
+.migas {
+	background-color: #fffaf0;
+	font-size: 65%;
+	font-weight: bold;
+	margin: 1%;
+}
+
+#miga1 {
+	color: #2E86C1;
+}
+
+#miga1:hover { 
+    cursor: pointer;
+	color: #f6a797;
+}
+
+#subtitulo {
+	color: #191970;
+	font-size: 130%;
+	font-weight: bold;
+}
+
+#tituloVideo {
+	font-size: 100%;
+	font-weight: bold;
+	text-align: center;
+}
+
+.icono {
+	background-color: #fffaf0;
+	margin-top: 10%;
+}
+
+#iconoY {
+	height: 8%;
+	width: 10%;
+	float: left;
+}
+
+#tituloVidRel {
+	float: left;
+	font-size: 100%;
+	font-weight: bold;
+	color: #F5B041;
+	margin-left : 5%;
+	margin-top: 2.5%;
+}
+
+#tituloVidRel:hover { 
+    cursor: pointer;
+	color: #f6a797;
+}
+
+.caja {
+	color: #7c7c65;
+	font-size: 2.2em;
+}
+
+#boton {
+	background-color: #191970;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 50px;
+	font-size: 1.5em;
+}
+
+.video-container {
+    padding-bottom: 50%;
+    padding-top: 30px;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.label-wp[stacked], .label-wp[stacked], .label-wp[stacked] {
+  font-size: 1.7rem;
+}

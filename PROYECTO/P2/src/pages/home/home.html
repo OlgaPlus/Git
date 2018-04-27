@@ -1,0 +1,44 @@
+
+<ion-content padding class="fondo">
+	<img src="/assets/imgs/EducaN.png" title='Logo1'/>
+	
+	<hr class="linea">
+	
+	<h1 class="titulo">Iniciar Sesión</h1>
+	
+	<ion-list>
+	
+	  <ion-item id="usuario">
+		<!--<ion-label stacked id="caja">Usuario</ion-label>-->
+		<ion-label id="caja">Usuario: </ion-label>
+		<ion-input type="text"></ion-input>
+	  </ion-item>
+
+	  <ion-item id="contr">
+		<!--<ion-label stacked id="caja2">Contraseña</ion-label>-->
+		<ion-label id="caja2">Contraseña: </ion-label>
+		<ion-input type="password"></ion-input>
+	  </ion-item>	
+	  
+	</ion-list>
+	
+	<u id="link" (click)="showPrompt()">¿Ha olvidado su contraseña?</u>
+
+	<button ion-button (click)="gotoPage('Pag1Page')" id="boton">Iniciar Sesión</button>
+	
+	<h4 id="texto">¿Todavía no estás registrado?</h4>
+	<u id="link" (click)="gotoPage('Pag3Page')">Registrarme</u>
+	
+	<p *ngFor="let cliente of listaClientes ">
+		<button small ion-button (click)="delCliente([cliente.id])">-</button>
+		<button small ion-button (click)="updateCliente([cliente.id])">u</button>
+		{{cliente.nombre}}  {{cliente.apellidos}}
+	</p>
+	
+	<!--<button ion-button secondary menuToggle>Toggle Menu</button>-->
+	<!--<button ion-button (click)="gotoPage('Pag1Page')">Ir a pagina de navegación</button>
+	<button ion-button (click)="gotoPage('PagBotonesPage')">Ir a pagina de Botones</button>
+	<button ion-button (click)="gotoPage('CardsPage')">Ir a pagina de Cards</button>
+	<button ion-button (click)="gotoPage('ChecksPage')">Ir a pagina de Checks</button>-->
+
+</ion-content>

@@ -1,0 +1,89 @@
+page-home {
+	
+}
+
+#encabezado {
+	background-color: #fffaf0;
+}
+
+.fondo {
+	background-color: #fffaf0;
+}
+
+.linea{
+	border-bottom: 2px solid #ff733f;
+	margin-top: 20px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+	font-size: 1em;
+	font-weight: 300;
+    padding: 5px 5px;
+    margin: 8px 0;
+    display: inline-block;
+}
+
+.titulo {
+	color: #191970;
+	text-shadow: 2px 2px 3px #a1a18c;
+    font-family: arial;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+#usuario, #contr {
+	background-color: #fffaf0;
+	border: none;
+	font-weight: 500;
+	margin-bottom: 10px;
+	
+}
+
+#contr {
+	border-bottom: 0.55px solid #c8c7cc;
+}
+
+#caja, #caja2 {
+	color: black;
+    font-family: arial;
+	font-size: 1em;
+	border: none;
+}
+
+#link {
+	cursor: pointer;
+	background-color: #fffaf0;
+	color: #ff733f;
+	font-style: italic;
+}
+
+#link:hover {
+	color: #ff9900;
+}
+
+#boton {
+	background-color: #191970;
+	text-align: center;
+	margin-top: 30px;
+	margin-left: 50px;
+	padding: 25px;
+	font-size: 1.5em;
+	text-transform: capitalize;
+	font-weight: 500;
+}
+
+#boton:hover {
+	background-color: #5050d8;
+}
+
+#texto  {
+	color: #191970;
+	font-size: 0.9em;
+}
+
+.label-wp[stacked], .label-wp[stacked], .label-wp[stacked] {
+  font-size: 1.7rem;
+}
